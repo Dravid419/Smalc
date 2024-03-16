@@ -11,5 +11,5 @@ Serial.println(getSensorDeLinea());
 }
 
 bool getSensorDeLinea(){
-  return digitalRead(sensorLinea); //Pero pq usamos funciones?
+  return digitalRead(sensorLinea); 
 }
